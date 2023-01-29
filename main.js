@@ -5,10 +5,15 @@ const screens = "Простые, Сложные, Интерактивные";
 console.log(screens.length);
 console.log(screens.toLowerCase().split());
 
-const screenPrice = 25;
-console.log(" Стоимость верстки экранов 25 рублей/ долларов/гривен/юани ");
+const screenPrice = 30;
+console.log(
+  " Стоимость верстки экранов " + screenPrice + " рублей/ долларов/гривен/юани "
+);
+console.log(
+  ` Стоимость верстки экранов ${screenPrice} рублей/ долларов/гривен/юани `
+);
 
-let roolback = 10;
+let rollback = 10;
 
 const fullPrice = 40000;
 console.log(typeof fullPrice);
@@ -17,4 +22,5 @@ console.log("Стоимость разработки сайта 40000 рубле
 let adaptive = true;
 console.log(typeof adaptive);
 
-console.log(40000 * (10 / 100));
+const rollbackPercent = fullPrice * (rollback / 100);
+console.log(rollbackPercent);
