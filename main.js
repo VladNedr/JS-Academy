@@ -15,9 +15,11 @@ console.log(
 
 let rollback = 10;
 
-const fullPrice = 40000;
+const fullPrice = 50000;
 console.log(typeof fullPrice);
-console.log("Стоимость разработки сайта 40000 рублей/ долларов/гривен/юани");
+console.log(
+  "Стоимость разработки сайта " + fullPrice + " рублей/ долларов/гривен/юани"
+);
 
 let adaptive = true;
 console.log(typeof adaptive);
